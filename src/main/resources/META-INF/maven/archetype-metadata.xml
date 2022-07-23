@@ -2,8 +2,89 @@
         xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.1.0 https://maven.apache.org/xsd/archetype-descriptor-1.1.0.xsd"
         name="quickstart">
+
+    <requiredProperties>
+
+        <requiredProperty key="module1">
+            <defaultValue>rest</defaultValue>
+        </requiredProperty>
+
+        <requiredProperty key="module2">
+            <defaultValue>controller</defaultValue>
+        </requiredProperty>
+
+        <requiredProperty key="module3">
+            <defaultValue>domain</defaultValue>
+        </requiredProperty>
+
+        <requiredProperty key="module4">
+            <defaultValue>frontend</defaultValue>
+        </requiredProperty>
+
+        <requiredProperty key="module5">
+            <defaultValue>service</defaultValue>
+        </requiredProperty>
+
+    </requiredProperties>
+
     <modules>
-        <module id="${artifactId}-rest" dir="${artifactId}-rest" name="${artifactId}-rest">
+        <module id="${module1}" dir="ui-rest" name="${module1}">
+            <fileSets>
+                <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                    <directory>src/main/java</directory>
+                </fileSet>
+                <fileSet encoding="UTF-8">
+                    <directory>src/main/resources</directory>
+                </fileSet>
+                <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                    <directory>src/test/java</directory>
+                </fileSet>
+            </fileSets>
+        </module>
+
+        <module id="${module2}" dir="ui-controller" name="${module2}">
+            <fileSets>
+                <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                    <directory>src/main/java</directory>
+                </fileSet>
+                <fileSet encoding="UTF-8">
+                    <directory>src/main/resources</directory>
+                </fileSet>
+                <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                    <directory>src/test/java</directory>
+                </fileSet>
+            </fileSets>
+        </module>
+
+        <module id="${module3}" dir="ui-domain" name="${module3}">
+            <fileSets>
+                <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                    <directory>src/main/java</directory>
+                </fileSet>
+                <fileSet encoding="UTF-8">
+                    <directory>src/main/resources</directory>
+                </fileSet>
+                <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                    <directory>src/test/java</directory>
+                </fileSet>
+            </fileSets>
+        </module>
+
+        <module id="${module4}" dir="ui-frontend" name="${module4}">
+            <fileSets>
+                <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                    <directory>src/main/java</directory>
+                </fileSet>
+                <fileSet encoding="UTF-8">
+                    <directory>src/main/resources</directory>
+                </fileSet>
+                <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                    <directory>src/test/java</directory>
+                </fileSet>
+            </fileSets>
+        </module>
+
+        <module id="${module5}" dir="ui-service" name="${module5}">
             <fileSets>
                 <fileSet filtered="true" packaged="true" encoding="UTF-8">
                     <directory>src/main/java</directory>

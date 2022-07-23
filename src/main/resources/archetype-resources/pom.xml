@@ -111,11 +111,4 @@
             </plugins>
         </pluginManagement>
     </build>
-    <modules>
-        <module>ui-console-rest</module>
-        <module>ui-console-controller</module>
-        <module>ui-console-frontend</module>
-        <module>ui-console-service</module>
-        <module>ui-console-domain</module>
-    </modules>
 </project>
