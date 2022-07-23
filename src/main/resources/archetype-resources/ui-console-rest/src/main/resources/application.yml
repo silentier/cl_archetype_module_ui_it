@@ -1,0 +1,31 @@
+spring:
+  cloud:
+    config:
+      failFast: true
+  devtools:
+    livereload:
+      port: 35723
+
+server:
+  servlet:
+    context-path: /${spring.application.name}
+  ssl:
+    enabled: true
+    key-store: classpath:keystore/keystore.jks
+    key-store-password: "{cipher}79586def83f560a9b237cf6abd827fb45d1c3694736dc61ca13293281b1852392b6e6de1727510a65956e7e2b8d54fad"
+
+
+management:
+  info:
+    env:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+info:
+  application:
+    name: '@project.name@'
+    description: '@project.description@'
+    version: '@project.version@'
