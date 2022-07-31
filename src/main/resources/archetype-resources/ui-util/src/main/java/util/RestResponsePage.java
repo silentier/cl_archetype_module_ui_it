@@ -1,4 +1,4 @@
-package util.${package};
+package ${package}.util;
 
 
 import com.fasterxml.jackson.annotation.JsonCreator;
