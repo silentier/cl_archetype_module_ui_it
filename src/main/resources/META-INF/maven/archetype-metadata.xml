@@ -6,23 +6,23 @@
     <requiredProperties>
 
         <requiredProperty key="module1">
-            <defaultValue>rest</defaultValue>
+            <defaultValue>ui-rest</defaultValue>
         </requiredProperty>
 
         <requiredProperty key="module2">
-            <defaultValue>controller</defaultValue>
+            <defaultValue>ui-controller</defaultValue>
         </requiredProperty>
 
         <requiredProperty key="module3">
-            <defaultValue>domain</defaultValue>
+            <defaultValue>ui-domain</defaultValue>
         </requiredProperty>
 
         <requiredProperty key="module4">
-            <defaultValue>frontend</defaultValue>
+            <defaultValue>ui-frontend</defaultValue>
         </requiredProperty>
 
         <requiredProperty key="module5">
-            <defaultValue>service</defaultValue>
+            <defaultValue>ui-service</defaultValue>
         </requiredProperty>
 
     </requiredProperties>

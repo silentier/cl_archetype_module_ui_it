@@ -69,25 +69,6 @@
             <version>2.7.1</version>
         </dependency>
 
-        <!-- pool -->
-        <dependency>
-            <groupId>com.zaxxer</groupId>
-            <artifactId>HikariCP</artifactId>
-            <version>4.0.3</version>
-        </dependency>
-
-        <!-- jdbc exclude -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.apache.tomcat</groupId>
-                    <artifactId>tomcat-jdbc</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-
         <!-- postgresql driver -->
         <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
         <dependency>
