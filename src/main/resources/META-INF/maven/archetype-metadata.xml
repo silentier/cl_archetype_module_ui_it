@@ -25,6 +25,14 @@
             <defaultValue>ui-service</defaultValue>
         </requiredProperty>
 
+        <requiredProperty key="module6">
+            <defaultValue>ui-entity</defaultValue>
+        </requiredProperty>
+
+        <requiredProperty key="module7">
+            <defaultValue>ui-util</defaultValue>
+        </requiredProperty>
+
     </requiredProperties>
 
     <modules>

@@ -9,10 +9,10 @@
     </parent>
 
     <groupId>${groupId}</groupId>
-    <artifactId>${module3}</artifactId>
+    <artifactId>${module6}</artifactId>
     <version>${version}</version>
 
-    <name>${module3}</name>
+    <name>${module6}</name>
     <!-- FIXME change it to the project's website -->
     <url></url>
 
@@ -28,16 +28,6 @@
             <artifactId>junit</artifactId>
             <version>4.11</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>${groupId}</groupId>
-            <artifactId>${module6}</artifactId>
-            <version>${version}</version>
-        </dependency>
-        <dependency>
-            <groupId>${groupId}</groupId>
-            <artifactId>${module7}</artifactId>
-            <version>${version}</version>
         </dependency>
     </dependencies>
 
