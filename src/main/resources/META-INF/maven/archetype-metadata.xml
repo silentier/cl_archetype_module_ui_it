@@ -105,5 +105,33 @@
                 </fileSet>
             </fileSets>
         </module>
+
+        <module id="${module6}" dir="ui-entity" name="${module6}">
+            <fileSets>
+                <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                    <directory>src/main/java</directory>
+                </fileSet>
+                <fileSet encoding="UTF-8">
+                    <directory>src/main/resources</directory>
+                </fileSet>
+                <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                    <directory>src/test/java</directory>
+                </fileSet>
+            </fileSets>
+        </module>
+
+        <module id="${module7}" dir="ui-util" name="${module7}">
+            <fileSets>
+                <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                    <directory>src/main/java</directory>
+                </fileSet>
+                <fileSet encoding="UTF-8">
+                    <directory>src/main/resources</directory>
+                </fileSet>
+                <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                    <directory>src/test/java</directory>
+                </fileSet>
+            </fileSets>
+        </module>
     </modules>
 </archetype-descriptor>
