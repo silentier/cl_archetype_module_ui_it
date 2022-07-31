@@ -39,6 +39,11 @@
             <artifactId>${module7}</artifactId>
             <version>${version}</version>
         </dependency>
+        <dependency>
+            <groupId>${groupId}</groupId>
+            <artifactId>${module5}</artifactId>
+            <version>${version}</version>
+        </dependency>
     </dependencies>
 
     <build>
