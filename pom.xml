@@ -4,7 +4,7 @@
 
     <groupId>com.silentier</groupId>
     <artifactId>archetype-ui-simple</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <packaging>maven-archetype</packaging>
     <name>archetype-ui-simple</name>
     <description>Archetype for frontends who use resources/static and resources/templates</description>
